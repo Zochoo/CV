@@ -1,0 +1,15 @@
+{
+  "name": "restoran-web",
+  "version": "1.0.0",
+  "description": "cv-web",
+  "main": "index.js",
+  "scripts": {
+    "compile:scss": "node-sass scss/main.scss style.css -w",
+    "heroku-postbuild": "ng build --prod"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
