@@ -40,6 +40,9 @@ body {
   color: var(--color-white);
   transition: var(--transition-1); }
 
+body::-webkit-scrollbar {
+  display: none; }
+
 header {
   min-height: 100vh;
   color: var(--color-white);
